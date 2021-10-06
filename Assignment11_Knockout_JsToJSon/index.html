@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.5.0/knockout-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>assignment using knockout</title>
+</head>
+<body style="background-color: burlywood;text-align: center;">
+    <h1>JavaScript object to JSON String</h1>
+<div style="padding-top: 15px;">
+<label for="firstName"><b>First Name</b></label>
+<input type="text" data-bind="value:fname" placeholder="Enter Your FirstName" required/>
+</div>
+
+<div  style="padding-top: 15px;">
+<label for="lastName"><b>Last Name</b></label>
+<input type="text" data-bind="value:lname" placeholder="Enter Your LastName" required/>
+</div>
+<div  style="padding-top: 15px;">
+<button  data-bind="click:onSubmit" >Create JSON String</button>
+<button   data-bind="click:onJSObject" >Create Javascript Object</button>
+</div>
+<div id="root"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
