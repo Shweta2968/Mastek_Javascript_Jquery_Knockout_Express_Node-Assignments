@@ -1,0 +1,24 @@
+// library
+@base-color: green;
+@dark-color: darken(@base-color, 10%);
+
+// use of library
+@import "library.less";
+@base-color: red;
+
+
+.block {
+    color: red; 
+    .inner {
+      background-color: $color;       
+      }
+    color: blue;  
+  } 
+  .inner{
+      color:white;
+  }
+
+.c1{
+    background-color: @base-color;
+    color:@dark-color;
+}
