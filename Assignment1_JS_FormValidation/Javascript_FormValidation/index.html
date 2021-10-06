@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2> Javascript Form Validation </h2>
+    <form action="welcome.html" method="get" onsubmit="return validateForm()">
+    <div>
+       
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" minlength="2" placeholder="Enter Your Firstname" required>
+        <span id="firstNameError"></span><br/><br/>
+    
+          <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" minlength="2" placeholder="Enter Your Lastname"required>
+        <span id="lastNameError"></span><br/><br/>
+
+        <label for="gender" id="gender" >Gender:</label>
+        Male<input type="radio" name="gender" value="Male"  checked/>
+        Female<input type="radio" name="gender" value="Female">
+        <span id="genderError"></span><br/><br/>
+        
+        <label for="City">City:</label>
+        <select name="City">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Pune">Gurgaon</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+        <span id="CityError"></span><br/><br/>
+
+        <label for="hobbies">Hobbies :</label><br/><br/>
+     <input type="checkbox" name="hobbies" value="Singing">Singing<br/>
+    <input type="checkbox" name="hobbies" value="Dancing">Dancing<br/>
+ <input type="checkbox" name="hobbies" value="Reading Books">Reading Books<br/>
+     <input type="checkbox" name="hobbies" valye="Cooking"> Cooking<br/><br/>
+
+
+         <div>
+            <label for="mobile">Mobile:</label>
+        <input type="text" name="mobile" id="mobile" placeholder="Enter Your Contact Number">
+        <span id="mobileError" ></span><br/><br/>
+        </div>
+     
+
+        
+
+         <div>
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email Address">
+        <span id="emailError"></span><br/><br/>
+    </div>
+    
+    
+
+     
+               
+    </div>
+    <div>
+        <input type="submit" value="Submit" >
+    </div>
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
