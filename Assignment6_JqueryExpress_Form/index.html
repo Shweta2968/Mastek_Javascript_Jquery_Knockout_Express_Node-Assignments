@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <form  action="/welcome" method="post" onsubmit="return Submit()">
+        <div>
+        <label for="fname">FirstName</label>
+        <input type="text" id="fname" name="fname" minlength="2"/>
+    </div>
+    <div>
+        <label for="lname">LastName</label>
+        <input type="text" id="lname" name="lname" minlength="2"/>
+    </div>
+        <button type="submit" id="submit" value="submit" >Submit</button>
+
+       
+    </form>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
