@@ -1,0 +1,15 @@
+
+body{
+    padding-top: 100px;
+    text-align: center;
+    background-color: rgb(17, 45, 63);
+    color:white;
+    font-size: large;
+}
+#firstNameError{
+    color:red;
+}
+#lastNameError{
+    color:red;
+}
+
