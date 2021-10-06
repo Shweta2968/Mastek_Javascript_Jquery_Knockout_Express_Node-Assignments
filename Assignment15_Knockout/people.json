@@ -1,0 +1,46 @@
+{
+
+    "people": [
+ 
+        {
+ 
+            "firstName": "Ankit",
+ 
+            "lastName": "Arora"
+ 
+        },
+ 
+        {
+ 
+            "firstName": "Gorden",
+ 
+            "lastName": "Bombay"
+ 
+        },
+ 
+        {
+ 
+            "firstName": "Denis",
+ 
+            "lastName": "Badman"
+ 
+        },
+ 
+        {
+ 
+            "firstName": "Jerry",
+ 
+            "lastName": "Own"
+ 
+        },
+ 
+        {
+ 
+            "firstName": "Diksha",
+ 
+            "lastName": "Shah"
+ 
+        }
+ 
+    ]
+ }
