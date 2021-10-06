@@ -1,2 +1,0 @@
-# Mastek_Javascript_Jquery_Knockout-Assignments
-Javascript Form Validation
